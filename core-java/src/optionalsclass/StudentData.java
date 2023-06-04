@@ -1,12 +1,12 @@
 package optionalsclass;
 
-public class Cat {
+public class StudentData {
 
     private String name;
     private int age;
 
     // Constructor
-    public Cat(String name, int age) {
+    public StudentData(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -33,7 +33,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "StudentData{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
