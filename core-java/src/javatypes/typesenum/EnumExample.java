@@ -1,6 +1,8 @@
-package javatypes.enumtype;
+package javatypes.typesenum;
 
 public class EnumExample {
+    
+
     // Declare an enum type called Fruit
     public enum Fruit {
         APPLE,
