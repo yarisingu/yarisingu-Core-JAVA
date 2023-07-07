@@ -22,9 +22,10 @@ public class PageRank {
 
         double[] pageRanks = calculatePageRanks(adjacencyMatrix, numPages);
 
-        System.out.println("Page Ranks:");
+        System.out.print("Page Ranks:");
+
         for (int i = 0; i < numPages; i++) {
-            System.out.println("Page " + (i + 1) + ": " + pageRanks[i]);
+            System.out.println("  Page " + (i + 1) + ": " + pageRanks[i]);
         }
     }
 
